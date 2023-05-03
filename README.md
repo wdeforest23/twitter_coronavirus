@@ -20,4 +20,4 @@ In total, there are about 1.1 billion tweets in this dataset.
 
 This displays the total number of times the hashtag `#coronavirus` was used on 16 February in each of the languages supported by twitter.
 
-[Coronavirus Usage by Language](lang_#coronavirus_barchart.png)
+![Coronavirus Usage by Language](Alternative_reduce_plot.png)
