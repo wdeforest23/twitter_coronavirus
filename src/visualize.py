@@ -49,26 +49,22 @@ if args.input_path == "reduced.lang" and args.key == "#coronavirus":
     plt.title(f'Twitter Usage of coronavirus Hashtag by Language in 2020')
     plt.xlabel('Language')
     plt.ylabel('Count')
-    plt.show()
     plt.savefig(f'lang_coronavirus_barchart.png')
 
 elif args.input_path == "reduced.lang" and args.key == "#코로나바이러스":
     plt.title(f'Twitter Usage of Korean Hashtag by Language in 2020')
     plt.xlabel('Language')
     plt.ylabel('Count')
-    plt.show()
     plt.savefig(f'lang_korean_barchart.png')
 
 elif args.input_path == "reduced.country" and args.key == "#coronavirus":
     plt.title(f'Twitter Usage of coronavirus Hashtag by Country in 2020')
     plt.xlabel('Country')
     plt.ylabel('Count')
-    plt.show()
     plt.savefig(f'country_coronavirus_barchart.png')
 
 else:
     plt.title(f'Twitter Usage of Korean Hashtag by Country in 2020')
     plt.xlabel('Country')
     plt.ylabel('Count')
-    plt.show()
     plt.savefig(f'country_korean_barchart.png')
